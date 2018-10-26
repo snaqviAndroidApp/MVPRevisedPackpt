@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MVPRevisedPackpt</string>
+    <string name="loginButton">Login</string>
+    <string name="firstname">First Name</string>
+    <string name="lastName">Last Name</string>
 </resources>

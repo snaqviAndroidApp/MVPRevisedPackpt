@@ -1,4 +1,25 @@
 package temple.tempflorida.azeemazem.mvprevisedpackpt.backend;
 
 public class User {
+
+    private int id;
+    private String firstName;
+    private String lastName;
+
+    public User(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
 }

@@ -1,4 +1,4 @@
-package temple.tempflorida.azeemazem.mvprevisedpackpt;
+package temple.tempflorida.azeemazem.mvprevisedpackpt.root;
 
 import android.app.Application;
 import android.content.Context;
@@ -23,6 +23,5 @@ public class ApplicationModule {
      return application;
 
     }
-
 
 }

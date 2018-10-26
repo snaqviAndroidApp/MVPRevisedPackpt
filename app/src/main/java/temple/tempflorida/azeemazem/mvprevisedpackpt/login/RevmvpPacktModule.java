@@ -1,4 +1,7 @@
 package temple.tempflorida.azeemazem.mvprevisedpackpt.login;
 
-public class RevmvpPacktModule {
+import dagger.Module;
+
+@Module
+public class RevmvpPacktModule {             // Dagger class that would provide necessary methods so MVP module could work
 }

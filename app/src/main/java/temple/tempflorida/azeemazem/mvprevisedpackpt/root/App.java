@@ -1,6 +1,9 @@
-package temple.tempflorida.azeemazem.mvprevisedpackpt;
+package temple.tempflorida.azeemazem.mvprevisedpackpt.root;
 
 import android.app.Application;
+
+import temple.tempflorida.azeemazem.mvprevisedpackpt.login.RevmvpPacktModule;
+
 
 public class App extends Application {
 
@@ -12,6 +15,7 @@ public class App extends Application {
 
         component = DaggerApplicationComponent.builder()
                 .applicationModule(new ApplicationModule(this))
+                .revmvppacktmodule(new RevmvpPacktModule())
                 .build();
     }
 
