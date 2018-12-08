@@ -1,4 +1,4 @@
-package temple.tempflorida.azeemazem.mvprevisedpackpt.root;
+package temple.mvprevisedpackpt.root;
 
 import android.app.Application;
 import android.content.Context;
@@ -9,11 +9,11 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-public class ApplicationModule {
+public class DeployModule {
 
     private Application application;
 
-    public ApplicationModule(Application application) {
+    public DeployModule(Application application) {
         this.application = application;
     }
 

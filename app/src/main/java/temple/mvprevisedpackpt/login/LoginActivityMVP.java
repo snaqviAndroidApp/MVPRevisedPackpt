@@ -1,12 +1,12 @@
-package temple.tempflorida.azeemazem.mvprevisedpackpt.login;
+package temple.mvprevisedpackpt.login;
 
-import temple.tempflorida.azeemazem.mvprevisedpackpt.backend.User;
+import temple.mvprevisedpackpt.backend.User;
 
 public interface LoginActivityMVP {
 
     interface View {
         String getFirstName();
-        String geLasttName();
+        String getLastName();
 
         void showUserSavedMsg();
         void showUserNotAvailable();
@@ -17,7 +17,6 @@ public interface LoginActivityMVP {
     }
 
     interface Presenter {
-
         void setView(LoginActivityMVP.View view);
         void loginButtonClicked();
         void getCurrentUser();
@@ -25,7 +24,7 @@ public interface LoginActivityMVP {
 
     interface Model {
         void createUser(String fname, String lname);
-        User getCurrentUser();
+        User getUser();
 
     }
 }

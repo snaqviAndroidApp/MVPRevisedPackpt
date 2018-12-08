@@ -1,4 +1,4 @@
-package temple.tempflorida.azeemazem.mvprevisedpackpt;
+package temple.mvprevisedpackpt;
 
 import org.junit.Test;
 
